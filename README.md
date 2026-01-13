@@ -9,7 +9,7 @@ The goal of this project is to enable printing from Linux and FreeBSD on such de
 Universal-printing requires following components:
 - Windows host (baremetal or virtual)
 	- Configured priner with driver for Windows shared via Samba
-	- [mfilemon] (https://github.com/lomo74/mfilemon) virtual printer (requires Ghostscript)
+	- [mfilemon](https://github.com/lomo74/mfilemon) virtual printer (requires Ghostscript)
 	- set of Powershell scripts from this repository
 - Linux or FreeBDS client with CUPs installed
 
@@ -22,7 +22,7 @@ Universal-printing requires following components:
 > Computer Configuration -> Administrative Templates -> Printers -> Allow job name in event logs
 
 - Install Ghostscript
-- Install [mfilemon] (https://github.com/lomo74/mfilemon)
+- Install [mfilemon](https://github.com/lomo74/mfilemon)
 - Create working directory for storing intermediate PDFs
 - Add new printer with mfilemon port acording to project's 
 
