@@ -75,7 +75,7 @@ Below is general scheme:
 
  > Get-MsmqQueue -QueueType Private | Format-Table -Property QueueName, MessageCount
  
-- Make furst run by aunching scripts mannually to check that all set up correctly. To test them - just put any PDF file into working directory and check logs
+- Make first run by aunching scripts mannually to check that all set up correctly. To test them just put any PDF file into working directory and check logs
 - If everything worked smoothly just add four tasks to Windows Task Scheduler:
 	- **File-Monitor**:
 		- Geneal tab:
