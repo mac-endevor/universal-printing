@@ -50,7 +50,7 @@ Below is general scheme:
 - Create working directory for storing intermediate PDFs
 - Add new printer with mfilemon port acording to project's how-to
 - Share the printer available over network for some local user account
-- Download and unpack archive from Release with Administrative, Modules and Scripts folder
+- Download and unpack [archive](https://github.com/mac-endevor/universal-printing/blob/main/assets/universal-printing.zip) from /assets with Administrative, Modules and Scripts folder
 - Edit scripts from Scripts folder to match your system:
 	- For all from /Scripts folder:
 		- Set **$logPath** variable
